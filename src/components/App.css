@@ -1,0 +1,72 @@
+#root {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 750px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  transition: 0.4s;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #f2f2f3;
+  background: #2f71e5;
+  box-shadow: 0 5px 15px rgb(14 26 57 / 20%);
+  border-radius: 100px;
+  padding: 20px 50px;
+}
